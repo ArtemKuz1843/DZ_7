@@ -38,7 +38,7 @@ void AverArifm(int[,] array)
         {
             SumColumns[j] += array[i, j];
         }
-        float aveAri = SumColumns[j]/array.GetLength(1);
+        double aveAri = (double)SumColumns[j]/array.GetLength(1);
         Console.WriteLine(aveAri);
     }
 }

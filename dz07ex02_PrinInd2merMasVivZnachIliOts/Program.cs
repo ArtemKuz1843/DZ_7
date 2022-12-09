@@ -29,7 +29,6 @@ FilPrintArray(arrayTab);
 Console.WriteLine("Введите позицию желаемого элемента, номер строки и номер столбца):");
 int lines = Convert.ToInt32(Console.ReadLine());
 int columns = Convert.ToInt32(Console.ReadLine());
-// задать вопрос как написать в данном случае код с примененреи типа данных bool
 
 if (lines < 1 || lines > arrayTab.GetLength(0) || columns < 1 || columns > arrayTab.GetLength(1))
 {
